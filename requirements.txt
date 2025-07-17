@@ -6,3 +6,5 @@ numpy
 matplotlib
 pandas
 lz4 
+netCDF4
+h5netcdf
