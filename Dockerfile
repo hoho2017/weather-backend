@@ -1,5 +1,5 @@
 # 基础镜像
-FROM python:3.9-slim
+FROM registry.cn-hangzhou.aliyuncs.com/luban-public/python:3.9-slim
 
 # 设置工作目录
 WORKDIR /app
