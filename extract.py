@@ -9,7 +9,7 @@ import pandas as pd
 import asyncio
 
 def generate_images_stream(target_lat, target_lon, output_dir, folder_name):
-    file_path = "https://weather-test-data.oss-cn-shanghai.aliyuncs.com/2025-06-01T00_00_00_cn_flatted.nc"
+    file_path = "./data/2025-06-01T00_00_00_cn_flatted.nc"
     ds = xr.open_dataset(file_path)
     lat = ds['latitude'].values
     lon = ds['longitude'].values
